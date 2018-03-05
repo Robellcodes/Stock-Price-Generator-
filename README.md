@@ -7,5 +7,5 @@ Displays price information of stocks after user enters one or more stock sticker
 ## Usage
 
 Open index.html.
-enter stock sticker symbols in search box seperated by commas.
-click button to fetch prices 
+Enter stock sticker symbols in search box seperated by commas.
+Click button to fetch prices 
