@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stocks</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://bootswatch.com/4/simplex/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    #stock {
+      display: flex;
+      background: #f4f4f4;
+      padding: 10px;
+      margin-bottom: 10px;
+      margin: 50%;
+    }
+
+    .container {
+      float: center;
+      margin-top: 5%;
+      background: rgb(223, 233, 236);
+      padding: 2%;
+      border-radius: 10px;
+    }
+
+    .searchContainer {
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    #stocklist {
+      background: red;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- container -->
+  <div class="container">
+    <div class="searchContainer">
+      <h2> Stock Price Generator</h2>
+      <p class="lead">Enter stock ticker symbols seperated by commas to fetch prices </p>
+      <input type="text" id="search" class="form-control" placeholder="Stock symbols...">
+    </div>
+    <br>
+
+    <button type="button" id="searchstock" class="btn btn-info">Get Stock Price!</button>
+    <table id="stockList" class="table">
+    </table>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
